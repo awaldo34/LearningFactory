@@ -11,8 +11,6 @@ import psycopg2
 import json
 import pytz
 import datetime 
-import xml.etree.ElementTree as ET
-import xmltodict
 
 
     
