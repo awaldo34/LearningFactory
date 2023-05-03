@@ -15,11 +15,13 @@ import datetime
 
     
     
-ip = "128.173.94.88"
+ip = "128.173.94.88" # ip address that can be used to access the LF api from any network with internet connection
+
 #machine = 'f170_D12827'
-machine = 'f170_D12903'
+#machine = 'f170_D12903' # machine id for the Stratasys 1
 
 
+# establishing connection to the locally installed PostgreSQL database
 conn = psycopg2.connect(
     host="localhost",
     database="postgres",
